@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* #main{
+    display: none;
+} */
+.resume{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.personal,.prof{
+    text-align: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+}
+h1{
+    background-color: aqua;
+}
+h3{
+    margin-left: 93px;
+    text-decoration: underline;
+}
+.impLinks{
+    margin-top: 20px;
+}
+.form{
+    margin-top: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    display: inline-block;
+    width: 420px;
+    height: 28px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.form label,input,textarea{
+    margin-top: 7px;
+}
+.form textarea{
+    height: 76px;
+    width: 428px;
+    padding: 5px;
+    min-width: 354px;
+    min-height: 76px;
+    max-width: 460px;
+    max-height: 100px;
+}
+#expCont,#eduCont,#proCont,#skillCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+}
+.but{
+    height: 34px;
+    width: 60px;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left:170px;
+}
+#final{
+    height: 50px;
+    width: 120px;
+    background-color: green;
+    /* position: relative;
+    top: 70px;
+    right: 28px; */
+}
+
+/* Responsive */
+@media only screen and (max-width:815px){
+    .resume{
+        flex-direction: column;
+    }
+}
+#main2{
+    display: none;
+    font-family: "Poppins", sans-serif;
+}
+.links,.links2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    /* position: relative;
+    left: 400px; */
+}
+.links2{
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.logo img{
+    height: 20px;
+    width: 30px;
+}
+.section{
+    text-align: left;
+    margin-top: 60px;
+}
+.section h3{
+    font-size: 1.6rem;
+    background-color: aqua;
+}
+.content{
+    margin-top: 12px;
+    text-align: left;
+}
+ul{
+    margin-left: 107px;
+}
